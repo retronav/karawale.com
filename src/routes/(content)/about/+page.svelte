@@ -101,7 +101,7 @@
 		a more professional overview, you can check out my résumé.
 	</p>
 
-	<a href={'/resume.pdf'}><button>Résumé</button></a>
+	<a href="/resume.pdf" rel="external"><button>Résumé</button></a>
 
 	<h2>What does retronav mean??</h2>
 	<p>
