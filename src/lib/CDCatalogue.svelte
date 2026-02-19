@@ -3,7 +3,6 @@
 <script lang="ts">
 	import { Disc, ArrowLeft, ExternalLink, Hash, ChevronRight, DiscAlbum } from '@lucide/svelte';
 	import { PROJECT_GROUPS, type Project } from '$lib/projects';
-	import { resolve } from '$app/paths';
 
 	let currentLevel = $state('ROOT');
 	let selectedGroup: (typeof PROJECT_GROUPS)[number] | null = $state(null);
@@ -120,24 +119,14 @@
 				<!-- Footer Actions -->
 				<div class="detail-footer">
 					{#if selectedProject.url}
-						<a
-							href={resolve(selectedProject.url)}
-							target="_blank"
-							rel="noreferrer"
-							class="btn-launch"
-						>
+						<a href={selectedProject.url} target="_blank" rel="noreferrer" class="btn-launch">
 							<button>
 								<ExternalLink size={14} /> LAUNCH
 							</button>
 						</a>
 					{/if}
 					{#if selectedProject.source}
-						<a
-							href={resolve(selectedProject.source)}
-							target="_blank"
-							rel="noreferrer"
-							class="btn-launch"
-						>
+						<a href={selectedProject.source} target="_blank" rel="noreferrer" class="btn-launch">
 							<button>
 								<Hash size={14} /> SOURCE
 							</button>
