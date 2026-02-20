@@ -78,7 +78,7 @@
   stroke: (x: none, y: 1.2pt + accent),
 
   [Summary],
-  [Founding engineer specializing in high-throughput backend systems (Go, Node.js) and applied ML (Computer Vision). Scaled a consumer app to 30k+ MAU and built edge-deployed industrial IoT pipelines.],
+  [Founding Engineer & final-year CS student with production experience building edge-deployed IoT pipelines and applied ML systems for industrial clients. Scaled a consumer app to 30k+ MAU.],
 
   [Skills],
   grid(
@@ -105,10 +105,10 @@
       "Present",
       "Navi Mumbai, India",
       [
-        - Deployed a custom YOLO vision model (0.77 mAP\@50) on edge hardware for autonomous fire detection; integrated with PLCs via Modbus to auto-target and control fire monitor pumps in real-time.
+        - Deployed a custom YOLO vision model (0.77 mAP\@50) on edge hardware; integrated with PLCs via Modbus to auto-target and control fire monitor pumps in real-time.
         - Built a metadata aggregator service (Node.js, PostgreSQL) that indexed 15M+ records in under 24 hours, redesigning the pipeline to sustain continuous throughput from live data records.
         - Developed a real-time IoT monitoring dashboard (Next.js, MQTT, PostgreSQL) deployed across 10+ industrial sites; achieved 99.9% uptime with automated threshold alerting for water, fire, and safety systems.
-        - Shipped an AWS-hosted ingestion pipeline and developed an enterprise LMS for coaching institutes that processed, tagged, and indexed 200K+ rich-media questions (text, images, LaTeX).
+        - Developed an AWS-hosted enterprise LMS for coaching institutes, building an ingestion pipeline that processed, tagged, and indexed 200K+ rich-media questions (text, images, LaTeX).
       ],
     ),
     experience(
@@ -130,15 +130,15 @@
       "Dec. 2023",
       "Remote",
       [
-        - Built a custom LLM orchestration framework using React JSX as a declarative prompt-structuring syntax, supporting multi-provider tool calling across OpenAI, Anthropic, and local models.
-        - Shipped the core abstraction layer for cross-model compatibility, enabling a client's internal AI workflow tooling.
+        - Built a custom LLM orchestration framework using React JSX as a declarative prompt-structuring syntax, supporting multi-provider tool calling across OpenAI, Anthropic, and Gemini.
+        - Architected the core abstraction layer for cross-model compatibility, establishing the foundation for a client's internal AI workflow tooling.
       ],
     ),
   ),
 
   [Education],
   education(
-    "University Of Mumbai",
+    "Vishwaniketan's iMEET (University of Mumbai)",
     "B.E. Computer Engineering",
     "Nov. 2022",
     "Jun. 2026",
@@ -149,11 +149,11 @@
     spacing: 6pt,
     project(
       "Bratify",
-      [Built an interactive image generator (Svelte) that organically grew to 30K monthly users; optimized rendering logic and backend caching to handle traffic spikes without downtime. \[Link: #link("https://bratify.vercel.app")\]],
+      [Built an interactive image generator (Svelte) that organically grew to 30K monthly users; achieved perfect 100s on Lighthouse by optimizing rendering logic and backend caching to handle traffic spikes. \[Link: #link("https://bratify.vercel.app")\]],
     ),
     project(
       "Aetherline",
-      "AI digitization engine for P&ID diagrams utilizing Python, OpenCV, and YOLO. Winner of the Echelon '25 Hackathon.",
+      "AI digitization engine for P&ID diagrams utilizing Python, OpenCV, and YOLO.",
     ),
     project(
       "AccessEye",
