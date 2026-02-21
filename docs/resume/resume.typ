@@ -57,14 +57,14 @@
 }
 
 #grid(
-  columns: (1fr, 1.2fr),
+  columns: (1fr, 1.5fr),
   align(left)[
     #text(size: 20pt, weight: "semibold", tracking: -0.5pt)[Pranav Karawale]\
     #text(size: 11pt, fill: accent)[Precision _beyond_ pixels.]
   ],
   align(right + horizon)[
     #link("mailto:" + email)[#email] | #phone | #location \
-    #link(website)[karawale.com] | #link(github)[github.com/retronav] | #link(linkedin)[linkedin/in/pranavkarawale]
+    #link(website)[karawale.com] | #link(github)[github.com/retronav] | #link(linkedin)[linkedin.com/in/pranavkarawale]
   ],
 )
 #v(6pt)
