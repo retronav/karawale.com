@@ -7,6 +7,7 @@
 	import { ArrowLeft } from '@lucide/svelte';
 	import { resolve } from '$app/paths';
 	import type { WPSeo } from '$lib/wordpress';
+	import Contact from '$lib/Contact.svelte';
 
 	let { data } = $props();
 
@@ -92,6 +93,16 @@
 	<section class="content">
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		{@html post.content}
+	</section>
+
+	<hr />
+
+	<section>
+		<p>
+			If you enjoyed this post and have thoughts on the same, you can contact me in the following
+			ways:
+		</p>
+		<Contact />
 	</section>
 </article>
 

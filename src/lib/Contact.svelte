@@ -3,7 +3,7 @@
 </script>
 
 <address class="social">
-	<Mail aria-hidden="true" />
+	<Mail aria-hidden="true" aria-label="Email" />
 	<code>pranav [at] karawale.com</code>
 </address>
 <address class="social">
@@ -16,3 +16,9 @@
 		><code>@retronav84</code> on Instagram</a
 	>
 </address>
+
+<style lang="scss">
+	code {
+		background: initial;
+	}
+</style>
