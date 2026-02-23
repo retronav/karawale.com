@@ -75,6 +75,9 @@ export async function GET() {
 		<link>${baseUrl}</link>
 		<description>Blog posts by Pranav Karawale. Thoughts on technology, engineering, and design.</description>
 		<language>en-us</language>
+		<author>
+		  <name>Pranav Karawale</name>
+		</author>
 		<lastBuildDate>${buildDate}</lastBuildDate>
 		<atom:link href="${baseUrl}/rss.xml" rel="self" type="application/rss+xml" />
 		<image>
