@@ -119,8 +119,8 @@
       "Aug. 2025",
       "Avignon, France",
       [
-        - Developed LoRaPWN, a MAC-layer security enhancement using ChaCha20-Poly1305 cryptography for LoRaWAN.
-        - Designed STM32 hardware testbed, achieving 10x cryptographic throughput increase and 90% energy reduction vs standard AES.
+        - Developed authenticated encryption with associated data encapsulation for LoRaWAN for protection against various MiTM, replay attacks.
+        - Designed STM32 hardware testbed along with vector database based reinforcement learning for auditing end devices.
         - Co-authored research on architecture and energy benchmarks for IEEE submission.
       ],
     ),
