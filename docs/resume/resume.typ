@@ -119,9 +119,7 @@
       "Aug. 2025",
       "Avignon, France",
       [
-        - Developed authenticated encryption with associated data encapsulation for LoRaWAN for protection against various MiTM, replay attacks.
-        - Designed STM32 hardware testbed along with vector database based reinforcement learning for auditing end devices.
-        - Co-authored research on architecture and energy benchmarks for IEEE submission.
+        Developed authenticated encryption with associated data encapsulation for LoRaWAN for protection against various MiTM, replay attacks, and vector database based reinforcement learning for auditing end devices.
       ],
     ),
     experience(
@@ -131,8 +129,7 @@
       "Dec. 2023",
       "Remote",
       [
-        - Built custom LLM orchestration framework using React JSX as a declarative prompt-structuring syntax.
-        - Architected cross-model abstraction layer supporting multi-provider tool calling (OpenAI, Anthropic, Gemini).
+        Architected a LLM agnostic prompt orchestration framework utilizing React JSX as a declarative language to build, manage, and scale complex agentic workflows across different LLM providers (OpenAI, Anthropic, Gemini).
       ],
     ),
   ),
