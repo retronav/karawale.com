@@ -25,8 +25,22 @@
 /*.avif
   Cache-Control: public, max-age=31536000, immutable
 
+# Static URLs but with changing content
+
 /sitemap.xml
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /robots.txt
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=0, must-revalidate
+
+/resume.pdf
+  Cache-Control: public, max-age=0, must-revalidate
+
+/logo.png
+  Cache-Control: public, max-age=0, must-revalidate
+
+/pubkey.asc
+  Cache-Control: public, max-age=0, must-revalidate
+
+/rss-style.xsl
+  Cache-Control: public, max-age=0, must-revalidate
