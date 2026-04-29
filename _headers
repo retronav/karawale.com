@@ -36,9 +36,6 @@
 /resume.pdf
   Cache-Control: public, max-age=0, must-revalidate
 
-/logo.png
-  Cache-Control: public, max-age=0, must-revalidate
-
 /pubkey.asc
   Cache-Control: public, max-age=0, must-revalidate
 
