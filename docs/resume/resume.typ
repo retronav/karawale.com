@@ -17,9 +17,17 @@
 
 #show link: underline
 
+#let rot5(text) = {
+  let map = (
+    "0": "5", "1": "6", "2": "7", "3": "8", "4": "9",
+    "5": "0", "6": "1", "7": "2", "8": "3", "9": "4",
+  )
+  text.split("").map(c => map.at(c, default: c)).join("")
+}
+
 #let accent = rgb("#4541B4")
 #let email = "pranav@karawale.com"
-#let phone = "+91 XXXXX XXXXX"
+#let phone = rot5("+46 31506 94774")
 #let location = "Navi Mumbai, IN"
 #let website = "https://karawale.com"
 #let github = "https://github.com/retronav"
@@ -106,8 +114,8 @@
       "Present",
       "Navi Mumbai, India",
       [
-        - Deployed custom YOLO vision model (0.77 mAP\@50) on edge hardware, integrated with PLCs via Modbus for real-time fire monitor pump control.
-        - Built Node.js and PostgreSQL metadata aggregator indexing 15M+ records in under 24 hours.
+        - Worked on designing AI models and controls for fire monitors to detect and respond to fire hazards autonomously. Also developed a secure dashboard for viewing real-time location feed and controlling the monitors remotely.
+        - Built live data pipeline using Python and PostgreSQL, indexing 15 million+ historical records in under 24 hours, and ingesting daily new data.
         - Developed real-time IoT monitoring dashboard deployed across 10+ industrial sites, achieving 99.9% uptime.
         - Created AWS-hosted ingestion pipeline processing and indexing 200K+ rich-media questions for enterprise LMS.
       ],
@@ -119,7 +127,7 @@
       "Aug. 2025",
       "Avignon, France",
       [
-        Developed authenticated encryption with associated data encapsulation for LoRaWAN for protection against various MiTM, replay attacks, and vector database based reinforcement learning for auditing end devices.
+        Developed novel authenticated encryption with associated data encapsulation scheme for LoRaWAN for protection against various MiTM, replay attacks, and vector database based reinforcement learning for auditing end devices.
       ],
     ),
     experience(
@@ -156,9 +164,9 @@
       "AI digitization engine for P&ID diagrams utilizing Python, OpenCV, and YOLO.",
     ),
     project(
-      "AccessEye",
+      "DuckThisFile",
       "",
-      "Automated ALPR and entry-management system with <700ms inference on Raspberry Pi Zero 2 W.",
+      "Self-hosted file portal with microservice architecture for image and PDF processing with privacy.",
     ),
   ),
 
