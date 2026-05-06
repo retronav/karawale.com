@@ -96,11 +96,11 @@
     gutter: 8pt,
     [
       *Languages:* Python, TypeScript, Go, C, Bash\
-      *Backend:* Node.js, FastAPI, PostgreSQL, MongoDB, MQTT
+      *Backend:* Node.js, FastAPI, PostgreSQL, MongoDB, MQTT, GRPC
     ],
     [
-      *Infra & DevOps:* AWS (EC2, S3), Docker, Traefik, Grafana\
-      *AI & Edge:* YOLO, OpenCV, Raspberry Pi, STM32, Modbus/PLC
+      *Infra & DevOps:* AWS (EC2, S3), Docker, Traefik, Grafana, Prometheus\
+      *AI & Edge:* YOLO, OpenCV, Raspberry Pi, STM32, Modbus/PLC, PlatformIO
     ],
   ),
 
@@ -127,7 +127,7 @@
       "Aug. 2025",
       "Avignon, France",
       [
-        Developed novel authenticated encryption with associated data encapsulation scheme for LoRaWAN for protection against various MiTM, replay attacks, and vector database based reinforcement learning for auditing end devices.
+        Designed new authenticated encryption with associated data encapsulation scheme for LoRaWAN for protection against various MiTM, replay attacks, and developed vector database based reinforcement learning for auditing end devices.
       ],
     ),
     experience(
@@ -154,14 +154,14 @@
   stack(
     spacing: 12pt,
     project(
-      "Bratify",
-      "https://bratify.vercel.app",
-      "Interactive Svelte image generator scaled to 30K MAU; achieved perfect Lighthouse scores via optimized rendering.",
+      "Newage Fire AI",
+      "",
+      "Autonomous Fire detection and response system. Uses Modbus and custom trained models to target and extinguish fires using industrial monitors, and send live alerts.",
     ),
     project(
-      "Aetherline",
-      "",
-      "AI digitization engine for P&ID diagrams utilizing Python, OpenCV, and YOLO.",
+      "Ixora",
+      "http://github.com/retronav/ixora",
+      "An extension pack to make interactive WYSIWYG markdown editors using CodeMirror 6.",
     ),
     project(
       "DuckThisFile",
