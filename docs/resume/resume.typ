@@ -114,7 +114,7 @@
       "Present",
       "Navi Mumbai, India",
       [
-        - Worked on designing AI models and controls for fire monitors to detect and respond to fire hazards autonomously. Also developed a secure dashboard for viewing real-time location feed and controlling the monitors remotely.
+        - Worked on designing AI models and controls for industrial fire monitors to detect and respond to fire hazards autonomously. Collaborated with stakeholders to build a secure, real-time remote monitoring dashboard.
         - Built live data pipeline using Python and PostgreSQL, indexing 15 million+ historical records in under 24 hours, and ingesting daily new data.
         - Developed real-time IoT monitoring dashboard deployed across 10+ industrial sites, achieving 99.9% uptime.
         - Created AWS-hosted ingestion pipeline processing and indexing 200K+ rich-media questions for enterprise LMS.
@@ -174,7 +174,7 @@
   [
     *Winner:* Echelon '25 Hackathon (AI P&ID Digitization)\
     *Gold Medallist:* JuniorSkills India 2021 (Web Technologies - National Level)\
-    *Leadership:* Technical Lead, GDG on Campus VIMEET (2024-25)\
+    *Leadership:* Mentored peers & led technical workshops as Technical Lead, GDG on Campus ViMEET (2024-25).\
     *OSS Contributor:* Astro [https://astro.build]
   ],
 )
