@@ -1,7 +1,7 @@
 #set page(
   paper: "a4",
   margin: (x: 0.5in, y: 0.6in),
-  background: image("resume-background.svg", fit: "contain", width: 100%),
+  // background: image("resume-background.svg", fit: "contain", width: 100%),
 )
 
 #set text(
