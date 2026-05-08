@@ -82,7 +82,7 @@
 		believe software should be like a LaFerrari: exquisite beauty on the outside, backed by raw,
 		uncompromising power on the inside.
 		<br />
-		One thing I digress with Ferrari on, though, is that a machine should be transparent and not locked-down;
+		I also believe that a machine should be transparent and not locked-down;
 		it should be so simple and open at its core that it embraces its user to blow a soul into it with
 		their own personal touch, making it something that's truly theirs. I aim to make stuff that is a well-engineered
 		piece of art where every component works together, creating a harmony of their own. Precision of engineering
