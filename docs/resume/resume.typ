@@ -110,7 +110,7 @@
     experience(
       link("https://pravideon.com")[Pravideon Pvt Ltd],
       "Founding Engineer",
-      "Jan. 2024",
+      "Oct. 2024",
       "Present",
       "Navi Mumbai, India",
       [
@@ -124,7 +124,7 @@
       "Avignon Université",
       "Research Intern",
       "Jun. 2025",
-      "Aug. 2025",
+      "Jul. 2025",
       "Avignon, France",
       [
         Designed new authenticated encryption with associated data encapsulation scheme for LoRaWAN for protection against various MiTM, replay attacks, and developed vector database based reinforcement learning for auditing end devices.
