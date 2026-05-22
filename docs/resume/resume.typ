@@ -74,8 +74,8 @@
 #grid(
   columns: (1fr, 1.5fr, 1fr),
   align(left)[
-    #link(github)[GitHub: retronav]\
-    #link(linkedin)[LinkedIn: pranavkarawale]
+    #text(size: 10pt)[#link(github)[github.com/retronav]]\
+    #text(size: 10pt)[#link(linkedin)[linkedin.com/in/pranavkarawale]]
   ],
   align(center)[
     #text(size: 26pt, weight: "medium", tracking: -0.5pt)[Pranav Karawale]\
