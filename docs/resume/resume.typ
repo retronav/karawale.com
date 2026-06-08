@@ -74,8 +74,8 @@
 #grid(
   columns: (1fr, 1.5fr, 1fr),
   align(left)[
-    #text(size: 10pt)[#link(github)[github.com/retronav]]\
-    #text(size: 10pt)[#link(linkedin)[linkedin.com/in/pranavkarawale]]
+    #text(size: 10pt)[#link(github)[GitHub: retronav]]\
+    #text(size: 10pt)[#link(linkedin)[LinkedIn: pranavkarawale]]
   ],
   align(center)[
     #text(size: 26pt, weight: "medium", tracking: -0.5pt)[Pranav Karawale]\
@@ -170,7 +170,7 @@
     ),
     project(
       "DuckThisFile",
-      "",
+      "https://github.com/retronav/duckThisFile",
       "Self-hosted file portal for secure, privacy-focused image and PDF processing built using microservice architecture.",
     ),
     project(
