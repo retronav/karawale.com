@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "rel": "urn:xmpp:alt-connections:xbosh",
+      "href": "https://chat.karawale.com/http-bind"
+    },
+    {
+      "rel": "urn:xmpp:alt-connections:websocket",
+      "href": "wss://chat.karawale.com/xmpp-websocket"
+    }
+  ]
+}
